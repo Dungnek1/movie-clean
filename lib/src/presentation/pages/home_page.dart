@@ -63,7 +63,7 @@ class HomePage extends ConsumerWidget {
                 sliver: SliverGrid(
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
-                    childAspectRatio: 0.55, // Adjusted to prevent overflow
+                    childAspectRatio: 0.54,
                     crossAxisSpacing: 12,
                     mainAxisSpacing: 12,
                   ),

@@ -27,16 +27,13 @@ class MovieCard extends StatelessWidget {
             ),
           ],
         ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Expanded(
-              flex: 3,
-              child: ClipRRect(
-                borderRadius: const BorderRadius.only(
-                  topLeft: Radius.circular(12),
-                  topRight: Radius.circular(12),
-                ),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Expanded(
                 child: CachedNetworkImage(
                   imageUrl: movie.posterUrl,
                   width: double.infinity,
@@ -57,14 +54,11 @@ class MovieCard extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              flex: 1,
-              child: Padding(
+              Container(
                 padding: const EdgeInsets.all(8),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
                       movie.title,
@@ -79,6 +73,7 @@ class MovieCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Row(
+                      mainAxisSize: MainAxisSize.min,
                       children: [
                         Icon(Icons.star, color: Colors.amber[700], size: 14),
                         const SizedBox(width: 4),
@@ -87,7 +82,7 @@ class MovieCard extends StatelessWidget {
                           style: const TextStyle(color: Colors.white70, fontSize: 12),
                         ),
                         const SizedBox(width: 8),
-                        Expanded(
+                        Flexible(
                           child: Text(
                             movie.year,
                             style: const TextStyle(color: Colors.white70, fontSize: 12),
@@ -99,8 +94,8 @@ class MovieCard extends StatelessWidget {
                   ],
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
