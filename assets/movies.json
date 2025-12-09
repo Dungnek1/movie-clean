@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Big Buck Bunny",
+      "overview": "A giant rabbit seeks revenge on bullies.",
+      "poster_url": "https://image.tmdb.org/t/p/w500/ym6E20WJ1HFYpNcUnHZTzvPFrRa.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/7rIPzLunB5PHEGZFx0F4jb1P0h9.jpg",
+      "rating": 7.5,
+      "year": "2008",
+      "video_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "genres": ["Animation", "Family"]
+    },
+    {
+      "id": "2",
+      "title": "Sintel",
+      "overview": "A young girl embarks on a quest to find her dragon friend.",
+      "poster_url": "https://image.tmdb.org/t/p/w500/1nU4VPEjmvYzuUB5sbztTSrP1eW.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/dEDL0x3W1qJ7rIdtNgU8AnKaQ0V.jpg",
+      "rating": 7.2,
+      "year": "2010",
+      "video_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "genres": ["Animation", "Adventure"]
+    },
+    {
+      "id": "3",
+      "title": "Elephant's Dream",
+      "overview": "Two men explore a surreal machine.",
+      "poster_url": "https://image.tmdb.org/t/p/w500/uYpknN0nMjxKrrl8I6k2PjzvCqY.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/aCPfC37EL11g1FEuZ2X8aiqaf9t.jpg",
+      "rating": 6.8,
+      "year": "2006",
+      "video_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "genres": ["Animation", "Short"]
+    },
+    {
+      "id": "4",
+      "title": "Tears of Steel",
+      "overview": "A group of warriors and scientists gather to stage a final mission.",
+      "poster_url": "https://image.tmdb.org/t/p/w500/o3fZsoyI46nNqapYq1J6RwdfQTp.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/6HCfDTKgp7eVn9Yx8RJWb1x1MyG.jpg",
+      "rating": 6.5,
+      "year": "2012",
+      "video_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "genres": ["Sci-Fi", "Short"]
+    },
+    {
+      "id": "5",
+      "title": "Inception",
+      "overview": "A thief who steals corporate secrets through dream-sharing technology.",
+      "poster_url": "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
+      "backdrop_url": "https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+      "rating": 8.8,
+      "year": "2010",
+      "video_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "genres": ["Action", "Sci-Fi"]
+    }
+  ]
+}
+
